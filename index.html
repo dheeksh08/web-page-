@@ -1,1 +1,22 @@
-<h1>MUKESH</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Change Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>This is a Heading</h1>
+  <p>This is a paragraph with some color.</p>
+  <button class="change-color-btn">Change Colors</button>
+
+  <script>
+    const button = document.querySelector('.change-color-btn');
+    button.addEventListener('click', function() {
+      document.body.classList.toggle('new-colors');
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

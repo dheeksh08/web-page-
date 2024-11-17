@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: blue;
+  }
+  
+  p {
+    color: darkgreen;
+  }
+  
+  .change-color-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* When the button is clicked, change colors */
+  .new-colors {
+    background-color: #2e3b4e;
+    color: #f1f1f1;
+  }
+  
+  .new-colors h1 {
+    color: orange;
+  }
+  
+  .new-colors p {
+    color: lightcoral;
+  }
+  
+  .new-colors .change-color-btn {
+    background-color: #28a745;
+  }
+  
